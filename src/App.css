@@ -1,0 +1,231 @@
+.container {
+  background-color: #1d1b3d ;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+ padding-top: 12vh;
+  display: flex;
+  flex-direction: row;
+  top: 10vh;
+  left: 87vh;
+  right: 30vh;
+  justify-content: flex-start;
+  max-width: 1000px;
+ 
+}
+.logo_i{
+  width: 3vw;
+  height: 4vw;
+ 
+}
+.logo text{
+  line-height: 1.5vw;
+  width: 13vw;
+  height: 0.5vw;
+  font-style: normal;
+  padding-top: 0.7vh;
+  padding-left: 1vh;
+  font-family: "Bookman Old Style";
+  font-weight: 700;
+  color: white;
+  font-size: 1vw;
+} 
+ .hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+ }
+.hero text{
+  position: absolute;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  top: 24.9vh;
+  left: 30vw;
+  height: 2vw;
+  width: 60vw;
+  font-size: 2vw;
+}
+.hero img{
+  position: absolute;
+  height:30vw;
+  width:45vw;
+}
+
+
+.text_m{
+  color: white;
+  height: 30px;
+  padding-top: 70vh;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 30px;
+}
+.socialsbox{ 
+  padding-top: 5vh;
+}
+.socials a{
+  padding: 1vh;
+}
+.socials img{
+  height: 2.6vh;
+  width: 2.5vh;
+}
+.socials{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width:500px){
+  .logo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vh;
+    justify-content: flex-start;
+    max-width: 1000px;
+   
+  }
+  .logo_i{
+    width: 39px;
+    height: 49.89px;
+  }
+  .logo text{
+    line-height: 14px;
+    font-size: 12px;
+    height:15px;
+    width:200px;
+    padding-top: 1.5vh;
+    padding-left: 10.5px;
+  }
+  .hero text{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    height: 10px;
+    width: 325px;
+    left: 5vh;
+    right:3vh;
+    top: 29vh;
+    font-size: 16px;
+    line-height: 48px;
+  }
+  .hero img{
+    position: absolute;
+    padding-top:8vh;
+    left:5vw;
+    height:65vw;
+    width:90vw;
+    
+  }
+  .text_m{
+    padding-top: 50vh;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .socials a{
+    padding: 5px;
+    height: 16%;
+    width: 16%;
+  }
+  .socialsbox{
+    padding-top: 5vh;
+  }
+  .socials img{
+    height:100%;
+    width:100%;
+  }
+}
+
+@media (max-width:950px) and (min-width:500px) {
+  .logo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vh;
+    justify-content: flex-start;
+    max-width: 1000px;
+   
+  }
+  .logo_i{
+    width: 39px;
+    height: 49.89px;
+  }
+  .logo text{
+    line-height: 14px;
+    font-size: 12px;
+    height:15px;
+    width:200px;
+    padding-top: 1.5vh;
+    padding-left: 10.5px;
+  }
+  .hero text{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    height: 10px;
+    width: 60vw;
+    left: 16vh;
+    right:3vh;
+    top: 29vh;
+    font-size: 3vw;
+    line-height: 48px;
+  }
+  .hero img{
+    position: absolute;
+    padding-top:8vh;
+    left:15vw;
+    height:45vw;
+    width:70vw;
+    
+  }
+  .text_m{
+    padding-top: 50vh;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 30px;
+  }
+  
+  .socials a{
+    padding: 5px;
+    height: 1.7vh;
+    width: 1.8h;
+  }
+  .socialsbox{
+    padding-top: 5vh;
+  }
+  .socials img{
+    height:100%;
+    width:100%;
+  }
+}
